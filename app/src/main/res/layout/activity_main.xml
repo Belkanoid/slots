@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_primary_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/deltaRelative">
+
+
+    <TextView
+        android:id="@+id/history_button"
+        android:layout_width="85dp"
+        android:layout_height="52dp"
+        android:layout_gravity="end"
+        android:background="@drawable/corner"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/history"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <ImageView
+        android:id="@+id/icon_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        app:srcCompat="@mipmap/ic_slots_foreground" />
+
+    <TextView
+        android:id="@+id/name_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/game_coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="8dp"
+        android:text="@string/coins"
+        android:textColor="@color/secondary_text"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/play_button"
+        style="@style/Button"
+        android:layout_width="262dp"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/play"
+        android:textColor="@color/primary_text" />
+
+
+</LinearLayout>

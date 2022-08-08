@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">slots</string>
+    <string name="play" translatable="false">Play</string>
+    <string name="spin" translatable="false">Spin</string>
+    <string name="bet" translatable="false">Bet</string>
+    <string name="coins" translatable="false">Your coins: %1$s</string>
+    <string name="menu">menu</string>
+    <string name="history">history</string>
+    <string name="place_your_bets">place your bets!</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_bet">No any bet</string>
+    <string name="current_bet">Current bet:\n %1$s</string>
+    <string name="your_bet">YOUR BET:\n %1$s</string>
+    <string name="your_reward">Your Reward!</string>
+
+
+</resources>
